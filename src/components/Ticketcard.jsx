@@ -5,8 +5,6 @@ import "./Ticketcard.css";
 import PropTypes from "prop-types";
 
 const TicketCard = ({ ticket }) => {
-  console.log(ticket.tag[0]);
-
   const { title, priority, status, userId, id } = ticket;
 
   const priorityColors = {

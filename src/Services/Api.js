@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = "https://api.quicksell.co/v1/internal/frontend-assignment";
+console.log(API_URL);
 
 export const fetchData = async () => {
   try {
